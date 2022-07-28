@@ -8,3 +8,16 @@
     background-position: center;
     background-size: cover;
 } */
+
+.banner_text h3{
+    font-size: 36px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.banner_text p{
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}

@@ -15,7 +15,7 @@ const Banner = () => {
                 backgroundPosition: "center",
                 backgroundSize: "cover"
             }}>
-                <div className="banner-container">
+                <div className="container">
                     <div className='banner_text'>
                         <h3>Computer Engineering</h3>
                         <p>142,765 Computer Engineers follow this</p>
