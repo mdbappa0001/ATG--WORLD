@@ -1,0 +1,28 @@
+.search_input input{
+    width: 360px;
+    height: 42px;
+    border-radius: 21px;
+    padding-left: 50px;
+    padding-right: 68px;
+    border: none;
+    top:16px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #5C5C5C;
+    background-color: #F2F2F2;
+}
+.search_input input:focus{
+    outline: none;
+}
+.menu-text p{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #2E2E2E;
+}
+.menu-text span{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: #2F6CE5;
+}
