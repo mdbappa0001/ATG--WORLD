@@ -1,0 +1,198 @@
+.route_left ul li{
+    list-style-type: none;
+    margin-right: 20px;
+    color: #8A8A8A;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+.post_route{
+    margin-left: -30px;
+}
+.route_left ul li:first-child{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+.post_btn_two{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+   height: 36px;
+   width: 135px;
+   background-color: #2F6CE5; 
+   border-radius: 4px;
+   margin-left: 16px;
+}
+.post_route{
+    margin-top: 40px;
+}
+.post_route{
+    position: relative;
+}
+.create_space{
+    margin-bottom: 98px;
+}
+.post_route::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 1115px;
+    background-color: #E0E0E0;
+    left: 30px;
+    top: 50px;
+}
+.post_route::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 93px;
+    background-color: rgba(0, 0, 0, 1);
+    left: 30px;
+    top: 49px;
+    z-index: 999;
+}
+.post_one_items{
+    width: 692px;
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 4px;
+}
+.post_one_img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.post_one_review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post_one{
+    margin-top: 28px;
+}
+.post_one_heading span{
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.post_one_heading h4{
+    font-size: 22px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    line-height: 134.17%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.post_one_heading p{
+    font-size: 18px;
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    color: #5C5C5C;
+}
+.review_left span{
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+.review_right span{
+    color: #525252;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.share_icon{
+    width: 42px;
+    height: 36px;
+    background: #EDEEF0;
+    border-radius: 2px;
+    font-size: 13px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 26px;
+    cursor: pointer;
+}
+.post_one_content{
+    margin: 0px 20px;
+}
+.post_one_review{
+    padding-bottom: 20px;
+}
+.review_left img{
+    margin-right: 10px;
+}
+.threeDotOptions ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.threeDotOptions{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 102px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16), 0px 0px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.threeDotsArea{
+    position: relative;
+}
+.threeDotOptions{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+.meetUp div{
+    margin-right: 34px;
+    margin-bottom: 16px;
+}
+.visit_now button{
+    width: 625px;
+    background-color: #fff;
+    padding: 10px 0px;
+    margin-bottom: 32px;
+    border-radius: 10px;
+    border: 1px solid #A9AEB8;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 13px;
+    color: #E56135;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#applyJob{
+    color: #02B875;
+}
+#job_space{
+    margin-top: 20px !important;
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000;
+}
+.filter_area{
+    padding-top: 70px;
+}
+.filter_name span{
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.filter_text{
+   border-bottom: 1px solid  #B8B8B8;
+   padding-bottom: 10px;
+}
+.filter_area p{
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+   padding-top: 32px;
+   line-height: 16px;
+}
