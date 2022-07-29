@@ -17,7 +17,7 @@ const Banner = () => {
             }}>
                 <div className="container">
                     <div className='banner_text'>
-                        <h3>Computer Engineering</h3>
+                        <h3 className='header_title'>Computer Engineering</h3>
                         <p>142,765 Computer Engineers follow this</p>
                     </div>
                 </div>

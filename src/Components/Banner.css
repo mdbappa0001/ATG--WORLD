@@ -9,15 +9,208 @@
     background-size: cover;
 } */
 
-.banner_text h3{
+.banner_text h3 {
     font-size: 36px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     color: #fff;
 }
-.banner_text p{
+
+.banner_text p {
     font-size: 18px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     color: #fff;
+}
+
+/* section{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.header_title{
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.header_title::before{
+    content: 'Computer Engineering';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    animation: typing 4s linear infinite;
+} */
+
+@keyframes typing {
+    0% {
+        content: 'C|';
+    }
+
+    3% {
+        content: 'Co|';
+    }
+
+    6% {
+        content: 'Com|';
+    }
+
+    9% {
+        content: 'Comp|';
+    }
+
+    12% {
+        content: 'Compu|';
+    }
+
+    15% {
+        content: 'Comput|';
+    }
+
+    18% {
+        content: 'Compute|';
+    }
+
+    21% {
+        content: 'Computer|';
+    }
+
+    24% {
+        content: 'Computer |';
+    }
+
+    27% {
+        content: 'Computer E|';
+    }
+
+    30% {
+        content: 'Computer En|';
+    }
+
+    33% {
+        content: 'Computer Eng|';
+    }
+
+    36% {
+        content: 'Computer Engi|';
+    }
+
+    39% {
+        content: 'Computer Engin|';
+    }
+
+    42% {
+        content: 'Computer Engine|';
+    }
+
+    45% {
+        content: 'Computer Enginee|';
+    }
+
+    48% {
+        content: 'Computer Engineer|';
+    }
+
+    51% {
+        content: 'Computer Engineeri|';
+    }
+
+    54% {
+        content: 'Computer Engineerin|';
+    }
+
+    57% {
+        content: 'Computer Engineering|';
+    }
+
+
+    62%,
+    79% {
+        content: 'Computer Engineering|'
+    }
+
+    80% {
+        content: 'Computer Engineerin|'
+    }
+
+    81% {
+        content: 'Computer Engineeri|'
+    }
+
+    82% {
+        content: 'Computer Engineer|'
+    }
+
+    83% {
+        content: 'Computer Enginee|'
+    }
+
+    84% {
+        content: 'Computer Engine|'
+    }
+
+    85% {
+        content: 'Computer Engin|'
+    }
+
+    86% {
+        content: 'Computer Engi|'
+    }
+
+    87% {
+        content: 'Computer Eng|'
+    }
+
+    88% {
+        content: 'Computer En|'
+    }
+
+    89% {
+        content: 'Computer E|'
+    }
+
+    90% {
+        content: 'Computer |'
+    }
+
+    91% {
+        content: 'Computer|'
+    }
+
+    92% {
+        content: 'Compute|'
+    }
+
+    93% {
+        content: 'Comput|'
+    }
+
+    94% {
+        content: 'Compu|'
+    }
+
+    95% {
+        content: 'Comp|'
+    }
+
+    96% {
+        content: 'Com|'
+    }
+
+    97% {
+        content: 'Co|'
+    }
+
+    98% {
+        content: 'C|'
+    }
+
+    99% {
+        content: '|'
+    }
+
+    100% {
+        content: '|';
+    }
 }
